@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>FEEDBACK</title>
+    <link rel="stylesheet" href="stylefeed.css" type="text/css">
+</head>
+
+<body>
+    <center>
+        <h2>FEEDBACK FORM</h2>
+    </center>
+    <div class="div9">
+        <table>
+            <tr>
+                <td><label for="fname">FIRST NAME:</label></td>
+                <td><input type="text" name="fname" id="fname" maxlength="10" placeholder="first name"></td>
+            </tr>
+            <tr>
+                <td> <label for="lname">LAST NAME:</label></td>
+                <td><input type="text" name="lname" id="lname" maxlength="10" placeholder="last name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL:</label></td>
+                <td><input type="email" name="email" id="email" placeholder="email"></td>
+            </tr>
+            <tr>
+                <td><label for="calander">DATE:</label></td>
+                <td><input type="date" name="calander" id="calander" placeholder="date"></td>
+            </tr>
+            <tr>
+                <td><label for="radiobtn">GENDER:</label></td>
+                <td><input type="radio" name="gp1" id="radiobtn">Male
+                    <input type="radio" name="gp1" id="radiobtn">Female
+                    <input type="radio" name="gp1" id="radiobtn">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="check">LANGUAGE:</label>
+                </td>
+                <td><input type="checkbox" name="check" id="check">HTML
+                    <input type="checkbox" name="check" id="check">CSS
+                    <input type="checkbox" name="check" id="check">Js
+                </td>
+            </tr>
+            <tr>
+                <td><label for="clg">COllege:</label></td>
+                <td> <select name="clg" id="clg">
+                        <option value="sjce">St.Joseph's College of Engineering</option>
+                        <option value="sjit">St.Joseph's Institute of Technology</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="upload">Upload:</lable>
+                </td>
+                <td><input type="file" name="upload" id="upload"></td>
+            </tr>
+            <tr><td><label>MESSAGE:</label></td>
+            <td><textarea name="message" form="message"> Enter here...</textarea></td></tr>
+        </table>
+        
+        <input type="submit" value="submit" name="submit">
+    </div>
+</body>
+
+</html>
